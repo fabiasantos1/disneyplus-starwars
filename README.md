@@ -1,7 +1,7 @@
 <strong> <h1 align="center"> Disney Plus - Star Wars</h1></strong>
 
 <p align="center">
-<img src=".github/Capa.png" alt="Demonstração do projeto" width="100%" />
+<img src=".github/capa.jpg" alt="Demonstração do projeto" width="100%" />
 </p>
 
 
