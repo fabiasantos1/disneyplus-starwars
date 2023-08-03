@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(71, 70, 70);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: white;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+  
+ul {
+  list-style: none;
+  
+}
+
+.logo img {
+  width: 80px;
+  height: 50px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 40px;
+  font-size: 16px;
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.50) 100%);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header, nav, ul, a {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-transform: uppercase;
+  
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 50%;
+}
+
+main {
+  margin-top: 500px;
+  padding: 0 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.card {
+  box-shadow: 0px 9.1632661819458px 9.1632661819458px 9.1632661819458px rgba(0, 0, 0, 0.50);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  outline: 4.582px solid #FFF;
+  scale: 1.05;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+} 
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2d060c #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2d060c;
+    border-radius: 10px;
+    border: 3px solid #bfbbbb;
+  }
