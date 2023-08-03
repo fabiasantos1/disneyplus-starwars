@@ -16,5 +16,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🏷️ Layout
 
 Você pode visualizar o layoout do projeto através
-[desse link](<https://www.figma.com/file/89kaszv93NNMdjc71qC2YH/Disney-Plus--Star-Wars-(Copy)?type=design&node-id=0-1&mode=design&t=qGDEooUmSNqwx4mr-0>).
+[desse link](<https://www.figma.com/file/89kaszv93NNMdjc71qC2YH/Disney-Plus--Star-Wars-(Copy)?type=design&node-id=0-1&mode=design&t=qGDEooUmSNqwx4mr-0 target="blank_">).
 É necessário ter uma conta no [Figma](https://www.figma.com)
