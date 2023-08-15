@@ -29,18 +29,27 @@
         <li><a href="#"><img src="./assets/icons/series.svg" alt="menu séries">SÉRIES</a></li>
       </ul>
 
-     <!--<ul class="celular">
+     <ul class="celular">
         <li><a href="#"><img src="./assets/images/casa.svg" alt="menu início"></a></li>
         <li><a href="#"><img src="./assets/images/pesquisar.svg" alt="menu pesquisa"></a></li>
-        <li><a href="#"><img src="./assets/images/mais.svg" alt="menu minha lista"></a></li>
-      </ul>-->
+        <li><a onclick="showMenu()"><img src="./assets/images/mais.svg" alt="menu minha lista"></a></li>
+      </ul>
     </nav>
     
     <div class="avatar">
       <span>FÁBIA</span>
       <img src="./assets/images/avatar.png" alt="imagem baby yoda">
     </div>
-    
+    <div class="menu" id="menu">
+      <ul class="">
+        <li><a href="#"><img src="./assets/icons/home.svg" alt="menu início">INÍCIO</a></li>
+        <li><a href="#"><img src="./assets/icons/pesquisa.svg" alt="menu pesquisa">PESQUISA</a></li>
+        <li><a href="#"><img src="./assets/icons/minhalista.svg" alt="menu minha lista">MINHA LISTA</a></li>
+        <li><a href="#"><img src="./assets/icons/originais.svg" alt="menu originais">ORIGINAIS</a></li>
+        <li><a href="#"><img src="./assets/icons/filmes.svg" alt="menu filmes">FILMES</a></li>
+        <li><a href="#"><img src="./assets/icons/series.svg" alt="menu séries">SÉRIES</a></li>
+      </ul>
+    </div>
   </header>
 
 
@@ -295,5 +304,14 @@
       
     </section>
   </main>
+  <script>
+    function showMenu() {
+      if(menu.style.display == 'block') {
+        menu.style.display = 'none'
+      } else {
+        menu.style.display = 'block';
+      }
+    }
+  </script>
 </body>
 </html>
